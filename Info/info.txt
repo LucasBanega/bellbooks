@@ -1,0 +1,14 @@
+Componentes de React:
+
+1 - Son funciones
+    function componente(){}
+    const componente = () => {}
+
+2 - Siempre van en mayusculas 
+    const Componente = () => {}
+
+3 - Siempre tienen retorno
+    const Componente = () => {
+        return "Hola Mundo"
+    }
+    
