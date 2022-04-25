@@ -8,6 +8,10 @@ import {
   NavBtnLink
 } from './navbar';
 
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+
+
+
 const Navbar = () => {
   return (
     <>
@@ -30,6 +34,7 @@ const Navbar = () => {
             Registrarse
           </NavLink>
         </NavMenu>
+        <ShoppingCartIcon />
         <NavBtn>
           <NavBtnLink to='/signin'>Ingresar</NavBtnLink>
         </NavBtn>

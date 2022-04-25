@@ -7,9 +7,11 @@ import Nosotros from './pages/about';
 import Libros from './pages/services';
 import Contacto from './pages/contact';
 import Registrarse from './pages/signup';
+import Main from "./pages/Main";
 
 function App() {
   return (
+
     <Router>
       <Navbar />
       <Routes>
@@ -19,7 +21,9 @@ function App() {
         <Route path='/contact-us' component={Contacto} />
         <Route path='/sign-up' component={Registrarse} />
       </Routes>
+      <Main nombre="Lucas"/>
     </Router>
+    
   );
 }
 
